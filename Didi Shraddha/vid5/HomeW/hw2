@@ -1,0 +1,39 @@
+// Print a number pyramid.
+
+import java.util.*;
+public class Main{
+	public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        for(int i=1; i<=n; i++){
+            for(int j=n-i; j>=1; j--){
+                System.out.print("  ");
+            }
+            for(int j=1; j<=i; j++)
+            System.out.print(i + "  ");
+            System.out.println(" ");
+        }
+	}
+}
+
+//     1
+//    2 2
+//   3 3 3
+//  4 4 4 4
+// 5 5 5 5 5
+
+
+
+
+
+
+
+ **/Output of the program::/**
+ 6
+          1   
+        2  2   
+      3  3  3   
+    4  4  4  4   
+  5  5  5  5  5   
+6  6  6  6  6  6   
