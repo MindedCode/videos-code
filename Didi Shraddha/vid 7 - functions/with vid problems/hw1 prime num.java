@@ -1,4 +1,4 @@
-// Make of func to Multiply 2 Nums & return the Product.
+// Make a function to check if a number is prime or not.
 
 import java.util.*;
 
