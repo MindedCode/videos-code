@@ -18,8 +18,44 @@ public class Main
 	}
 }
 
+// code 2------------------------------
+import java.util.*;
 
-"Output of the program"
-n = 6
+public class Main{
+    
+    public static int fact(int n){
+        
+        int ans = 1;
+        if(n==1 || n==0)
+            return 1;
+            
+        ans =   n*fact(n-1);
+        return ans;
+    }
+    
+    public static void main (String[] args) {
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Number: ");
+        int n=sc.nextInt();
+        
+        // function call
+        int ans = fact(n);
+        System.out.println("Show Output : " + ans);
+        
+        
+    }
+}
+
+
+output 2
+
+// Enter Number: 
+// 7
+// Show Output : 5040
+
+output 1
+// "Output of the program"
+// n = 6
   
-720
+// 720
